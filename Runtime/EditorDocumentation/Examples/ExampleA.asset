@@ -1,0 +1,86 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b583188ac94622b4cb532c86de32db8d, type: 3}
+  m_Name: ExampleA
+  m_EditorClassIdentifier: 
+  data:
+    title: Quick Start to Documentation
+    documentation: 'Hi! This is a shortdemo on how to use the in-editor documentation
+      system.
+
+
+      <img src="Assets/ExternalPlugins/EditorDocumentation/Examples/Images/Talalalala.jpg"
+      height=200>
+
+
+      The following system supports Rich text formatting. This
+      includes:
+
+
+      - <b> Bold text </b>
+
+      - <color=cyan> Colored text </color>
+
+      - 
+      <size=25>Font sizes</size>
+
+      -  <size=25><color=red>Multiple tags</color></size>
+
+
+      and
+      as you saw, Images.
+
+
+
+      <b><size=30>How to Document</size></b>
+
+
+      In
+      the inspector, create a <color=cyan>documentation scriptable object</color>,
+      like the one you''re using to read the following text right now.
+
+
+      <img
+      src="Assets/ExternalPlugins/EditorDocumentation/Examples/Images/documentationInspectorWindow.png"
+      height=400>
+
+
+      Edit the documentation scriptable object as you please
+      to add the necessary data.
+
+
+
+      Once completed, in your relevant scripts,
+      create an <color=cyan>InspectorDocumentation</color> variable.
+
+
+      <img
+      src="Assets/ExternalPlugins/EditorDocumentation/Examples/Images/documentationInspectorVar.png"
+      height=100>
+
+
+      Drag your documentation scriptable object into the variable
+      slot, and the documentation should display on the script itself.
+
+
+      <img
+      src="Assets/ExternalPlugins/EditorDocumentation/Examples/Images/documentationGUIEditing.png"
+      height=100>
+
+
+      <img src="Assets/ExternalPlugins/EditorDocumentation/Examples/Images/documentationGUIDisplaying.png"
+      height=500>
+
+
+
+      <b><size=30>Happy documenting!</size></b>'
+    isEditing: 0
