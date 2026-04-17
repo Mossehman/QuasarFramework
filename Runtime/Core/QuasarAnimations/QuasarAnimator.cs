@@ -1,4 +1,3 @@
-using GluonGui.WorkspaceWindow.Views.WorkspaceExplorer.Explorer;
 using System;
 using System.Collections.Generic;
 using UnityEngine;
@@ -13,6 +12,8 @@ namespace QuasarFramework.Lerp
         private readonly List<QLerp> toAdd = new();
         private readonly List<QLerp> toRemove = new();
 
+        protected override bool SceneBound => true;
+        protected override bool Disposable => true;
         public void AddLerp(QLerp lerp)
         {
             toAdd.Add(lerp);
